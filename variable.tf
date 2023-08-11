@@ -1,4 +1,4 @@
-variable "tags"{
+variable "time"{
      default={
      name = "timings"
      }
