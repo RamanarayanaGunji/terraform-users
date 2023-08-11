@@ -1,5 +1,5 @@
 variable "tags"{
      default={
-     name = " timings"
+     name = "timings"
      }
 }
