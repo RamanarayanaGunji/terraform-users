@@ -1,6 +1,6 @@
-/*
 variable "tags"{
+     type = map
      default={
-     name = "timings"
+       Name = "timings"
      }
-} */
+}
