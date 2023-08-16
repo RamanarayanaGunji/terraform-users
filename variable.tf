@@ -24,6 +24,12 @@ variable "private-subnet-tags"{
       Name = "private-subnet-timing"
       }
 }
+variable "database-subnet-tags"{
+      type = map
+      default = {
+      Name = "database-subnet-timing"
+      }
+}
 variable "public-route-table-tags"{
       type = map
       default = {
